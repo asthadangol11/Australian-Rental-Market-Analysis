@@ -15,7 +15,7 @@ The objective of this project is to demonstrate how **data analytics and busines
 ---
 
 ## Dataset
-**Dataset:** Australian Rental Market Listings (2026) from Kaggle
+**Dataset:** Australian Rental Market Listings (2026) from Kaggle. Link to the dataset 'https://www.kaggle.com/datasets/kanchana1990/australian-rental-market-data-2026'
 
 ---
 
