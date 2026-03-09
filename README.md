@@ -37,8 +37,6 @@ Key insights include:
 - Premium rental market concentration  
 - Rental price spread using Interquartile Range (IQR)
 
----
-
 ### 2. Suburb Rental Affordability Analysis
 This dashboard focuses on **suburb-level rental insights**.
 Key insights include:
@@ -56,13 +54,11 @@ Several custom analytical metrics were created using **DAX** to better understan
 Represents the **middle value of rental prices** when listings are ordered from lowest to highest.
 Median rent is preferred over average rent because **extremely expensive properties can skew average values**, making median a more reliable indicator of typical rental prices.
 
----
 
 ### Average Weekly Rent
 Calculates the **average rental price across all listings**.
 This metric is mainly used for comparison with the median to identify **price skew caused by high-value listings**.
 
----
 
 ### Rent Percentiles (P25 & P75)
 These metrics divide rental listings into distribution segments.
@@ -70,33 +66,28 @@ These metrics divide rental listings into distribution segments.
 - **P75 (75th percentile)** identifies higher-priced rental listings  
 These percentiles help classify the rental market into **budget, mid-range, and premium segments**.
 
----
 
 ### Rent Interquartile Range (IQR)
 The IQR measures the **spread of rental prices between P25 and P75**.
 IQR = P75 − P25
 This metric helps evaluate **how widely rental prices vary within a market**.
 
----
 
 ### Premium Listings Share
 Measures the **proportion of rental listings that fall within the top 25% of rental prices**.
 This indicator helps identify markets with **strong premium rental demand**.
 
----
 
 ### Rent per Bedroom
 Calculates rental price relative to property size.
 Rent per Bedroom = Rent / Number of Bedrooms
 This metric helps evaluate the **cost efficiency of larger properties and shared housing arrangements**.
 
----
 
 ### Affordability Ranking (Suburb)
 Ranks suburbs based on **median weekly rent from lowest to highest**.
 Suburbs with lower median rent values represent **more affordable rental markets**.
 
----
 
 ### Rent Index
 Compares the **median rent of a specific location relative to the overall market median**.
